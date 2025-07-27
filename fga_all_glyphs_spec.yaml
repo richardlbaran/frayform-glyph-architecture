@@ -1,0 +1,1564 @@
+- alias: SeedNeverform
+  description: Represents the birth of cognition or perspective—a symbolic ignition
+    of internal thought. Often the first glyph in a reflective or transformative chain.
+    Its presence signals the start of a new reasoning state or conceptual thread.
+  example_sequence: ∴∅∴ | ∴Ψ∴ | ∴Σ∴ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  - ✶⊘✶
+  layer: 0
+  meaning: awakening
+  modifiers_allowed:
+  - ^
+  - ↻
+  precedence_notes: Most potent when placed at the start of a glyph sequence.
+  symbol: ∴∅∴
+  use_case: Use this glyph to initiate recursive thinking, introspective work, or
+    novel ideation processes. Pairs well with DriftGradient, SparkLoop, or DreamLoop.
+- alias: SparkLoop
+  description: Triggers introspection through feedback—calls the previous cognitive
+    structure for review. Symbolizes the quick ignition of a reflective sub-loop or
+    micro-evaluation pass.
+  example_sequence: ∴Σ∴ | ↂ | ∴∅∴
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 0
+  meaning: reflect
+  modifiers_allowed:
+  - ↻
+  - '*'
+  precedence_notes: Can follow almost any glyph but should not initiate a sequence
+    on its own.
+  symbol: ↂ
+  use_case: Place after any synthesis or convergence step to re-interrogate assumptions
+    or shift tone. Useful in moral evaluation or speculative sequences.
+- alias: DreamLoop
+  description: Invokes divergent generative thinking—used to construct speculative
+    possibilities, creative branching, or potential futures. It encourages open-world
+    ideation and dreamlike exploration.
+  example_sequence: ∴∅∴ | ∴Ψ∴ | ∴Σ∴
+  incompatible_with:
+  - ⊘⊘⊘
+  - ⊘↻⊘
+  layer: 1
+  meaning: imagine
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Should follow SeedNeverform or reflective glyphs to guide the
+    creative burst.
+  symbol: ∴Ψ∴
+  use_case: Apply when seeking innovation, alternate paths, or concept blending. Strong
+    paired with CoreGoal, TrendSpike, or MergeLoop.
+- alias: MergeLoop
+  description: A symbolic operation related to 'synthesize'. Executes within layer
+    1 and modifies conceptual or operational state.
+  example_sequence: ∴Σ∴ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 1
+  meaning: synthesize
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Should be used after contextually relevant glyphs within or across
+    layers.
+  symbol: ∴Σ∴
+  use_case: Used in reasoning patterns requiring synthesize-oriented adjustments or
+    logic chains.
+- alias: DriftGradient
+  description: A symbolic operation related to 'tempo'. Executes within layer 1 and
+    modifies conceptual or operational state.
+  example_sequence: ↂ◊∇ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 1
+  meaning: tempo
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Should be used after contextually relevant glyphs within or across
+    layers.
+  symbol: ↂ◊∇
+  use_case: Used in reasoning patterns requiring tempo-oriented adjustments or logic
+    chains.
+- alias: SeedGhost
+  description: A symbolic operation related to 'absence'. Executes within layer 2
+    and modifies conceptual or operational state.
+  example_sequence: SeedGhost | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 2
+  meaning: absence
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Should be used after contextually relevant glyphs within or across
+    layers.
+  symbol: SeedGhost
+  use_case: Used in reasoning patterns requiring absence-oriented adjustments or logic
+    chains.
+- alias: MemoryFold
+  description: A symbolic operation related to 'reverse'. Executes within layer 2
+    and modifies conceptual or operational state.
+  example_sequence: MemoryFold | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 2
+  meaning: reverse
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Should be used after contextually relevant glyphs within or across
+    layers.
+  symbol: MemoryFold
+  use_case: Used in reasoning patterns requiring reverse-oriented adjustments or logic
+    chains.
+- alias: PhantomDrift
+  description: A symbolic operation related to 'shift'. Executes within layer 2 and
+    modifies conceptual or operational state.
+  example_sequence: ∴◊∴ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 2
+  meaning: shift
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Should be used after contextually relevant glyphs within or across
+    layers.
+  symbol: ∴◊∴
+  use_case: Used in reasoning patterns requiring shift-oriented adjustments or logic
+    chains.
+- alias: EchoVault
+  description: A symbolic operation related to 'specialist'. Executes within layer
+    3 and modifies conceptual or operational state.
+  example_sequence: EchoVault | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 3
+  meaning: specialist
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Should be used after contextually relevant glyphs within or across
+    layers.
+  symbol: EchoVault
+  use_case: Used in reasoning patterns requiring specialist-oriented adjustments or
+    logic chains.
+- alias: TangleBridge
+  description: A symbolic operation related to 'conflict-fusion'. Executes within
+    layer 4 and modifies conceptual or operational state.
+  example_sequence: TangleBridge | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 4
+  meaning: conflict-fusion
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Should be used after contextually relevant glyphs within or across
+    layers.
+  symbol: TangleBridge
+  use_case: Used in reasoning patterns requiring conflict-fusion-oriented adjustments
+    or logic chains.
+- alias: BoundedReality
+  description: A symbolic operation related to 'audit'. Executes within layer 5 and
+    modifies conceptual or operational state.
+  example_sequence: ∴[ ]∴ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 5
+  meaning: audit
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Should be used after contextually relevant glyphs within or across
+    layers.
+  symbol: ∴[ ]∴
+  use_case: Used in reasoning patterns requiring audit-oriented adjustments or logic
+    chains.
+- alias: MirrorKey
+  description: A symbolic operation related to 'invert'. Executes within layer 5 and
+    modifies conceptual or operational state.
+  example_sequence: '{∴ | ??'
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 5
+  meaning: invert
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Should be used after contextually relevant glyphs within or across
+    layers.
+  symbol: '{∴'
+  use_case: Used in reasoning patterns requiring invert-oriented adjustments or logic
+    chains.
+- alias: EdgeSight
+  description: A symbolic operation related to 'discontinuity'. Executes within layer
+    6 and modifies conceptual or operational state.
+  example_sequence: ◇◉◇ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 6
+  meaning: discontinuity
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Should be used after contextually relevant glyphs within or across
+    layers.
+  symbol: ◇◉◇
+  use_case: Used in reasoning patterns requiring discontinuity-oriented adjustments
+    or logic chains.
+- alias: PulseScan
+  description: Performs a symbolic action related to 'sweep' within cognitive or synthetic
+    sequences. Belongs to layer 6, impacting how thought forms are redirected, enhanced,
+    or interrupted.
+  example_sequence: ◉⌁◉ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 6
+  meaning: sweep
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ◉⌁◉
+  use_case: Utilize this glyph in reasoning systems requiring sweep logic—especially
+    where perception, transition, or emphasis are required.
+- alias: HoloBind
+  description: Performs a symbolic action related to 'gestalt' within cognitive or
+    synthetic sequences. Belongs to layer 6, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ⌁◇⌁ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 6
+  meaning: gestalt
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ⌁◇⌁
+  use_case: Utilize this glyph in reasoning systems requiring gestalt logic—especially
+    where perception, transition, or emphasis are required.
+- alias: BlindNull
+  description: Performs a symbolic action related to 'dead-zone' within cognitive
+    or synthetic sequences. Belongs to layer 6, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ◇◇◇ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 6
+  meaning: dead-zone
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ◇◇◇
+  use_case: Utilize this glyph in reasoning systems requiring dead-zone logic—especially
+    where perception, transition, or emphasis are required.
+- alias: NoiseGate
+  description: Performs a symbolic action related to 'filter' within cognitive or
+    synthetic sequences. Belongs to layer 6, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ⌗◉⌗ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 6
+  meaning: filter
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ⌗◉⌗
+  use_case: Utilize this glyph in reasoning systems requiring filter logic—especially
+    where perception, transition, or emphasis are required.
+- alias: SignalShear
+  description: Performs a symbolic action related to 'separate' within cognitive or
+    synthetic sequences. Belongs to layer 6, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ◉⌗◉ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 6
+  meaning: separate
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ◉⌗◉
+  use_case: Utilize this glyph in reasoning systems requiring separate logic—especially
+    where perception, transition, or emphasis are required.
+- alias: EchoMask
+  description: Performs a symbolic action related to 'spoof' within cognitive or synthetic
+    sequences. Belongs to layer 6, impacting how thought forms are redirected, enhanced,
+    or interrupted.
+  example_sequence: ⌗⌗⌗ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 6
+  meaning: spoof
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ⌗⌗⌗
+  use_case: Utilize this glyph in reasoning systems requiring spoof logic—especially
+    where perception, transition, or emphasis are required.
+- alias: FocusPivot
+  description: Performs a symbolic action related to 'refocus' within cognitive or
+    synthetic sequences. Belongs to layer 6, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ◉◇⌗ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 6
+  meaning: refocus
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ◉◇⌗
+  use_case: Utilize this glyph in reasoning systems requiring refocus logic—especially
+    where perception, transition, or emphasis are required.
+- alias: TrendSpike
+  description: Performs a symbolic action related to 'surge' within cognitive or synthetic
+    sequences. Belongs to layer 7, impacting how thought forms are redirected, enhanced,
+    or interrupted.
+  example_sequence: ∆∆∆ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 7
+  meaning: surge
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ∆∆∆
+  use_case: Utilize this glyph in reasoning systems requiring surge logic—especially
+    where perception, transition, or emphasis are required.
+- alias: Plateau
+  description: Performs a symbolic action related to 'level' within cognitive or synthetic
+    sequences. Belongs to layer 7, impacting how thought forms are redirected, enhanced,
+    or interrupted.
+  example_sequence: ∆⌁∆ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 7
+  meaning: level
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ∆⌁∆
+  use_case: Utilize this glyph in reasoning systems requiring level logic—especially
+    where perception, transition, or emphasis are required.
+- alias: InflectHook
+  description: Performs a symbolic action related to 'turn' within cognitive or synthetic
+    sequences. Belongs to layer 7, impacting how thought forms are redirected, enhanced,
+    or interrupted.
+  example_sequence: ∆◇∆ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 7
+  meaning: turn
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ∆◇∆
+  use_case: Utilize this glyph in reasoning systems requiring turn logic—especially
+    where perception, transition, or emphasis are required.
+- alias: FadeOut
+  description: Performs a symbolic action related to 'decline' within cognitive or
+    synthetic sequences. Belongs to layer 7, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ⌁∆⌁ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 7
+  meaning: decline
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ⌁∆⌁
+  use_case: Utilize this glyph in reasoning systems requiring decline logic—especially
+    where perception, transition, or emphasis are required.
+- alias: AltPath
+  description: Performs a symbolic action related to 'counterpath' within cognitive
+    or synthetic sequences. Belongs to layer 7, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ¬∆¬ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 7
+  meaning: counterpath
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ¬∆¬
+  use_case: Utilize this glyph in reasoning systems requiring counterpath logic—especially
+    where perception, transition, or emphasis are required.
+- alias: ForkBlur
+  description: Performs a symbolic action related to 'scatter' within cognitive or
+    synthetic sequences. Belongs to layer 7, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ¬⌁¬ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 7
+  meaning: scatter
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ¬⌁¬
+  use_case: Utilize this glyph in reasoning systems requiring scatter logic—especially
+    where perception, transition, or emphasis are required.
+- alias: PivotNull
+  description: Performs a symbolic action related to 'nullify' within cognitive or
+    synthetic sequences. Belongs to layer 7, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ¬◇¬ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 7
+  meaning: nullify
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ¬◇¬
+  use_case: Utilize this glyph in reasoning systems requiring nullify logic—especially
+    where perception, transition, or emphasis are required.
+- alias: GhostFuture
+  description: Performs a symbolic action related to 'discarded' within cognitive
+    or synthetic sequences. Belongs to layer 7, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ¬¬¬ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 7
+  meaning: discarded
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ¬¬¬
+  use_case: Utilize this glyph in reasoning systems requiring discarded logic—especially
+    where perception, transition, or emphasis are required.
+- alias: StarGoal
+  description: Performs a symbolic action related to 'vision' within cognitive or
+    synthetic sequences. Belongs to layer 8, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ✶✶✶ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 8
+  meaning: vision
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ✶✶✶
+  use_case: Utilize this glyph in reasoning systems requiring vision logic—especially
+    where perception, transition, or emphasis are required.
+- alias: RampGoal
+  description: Performs a symbolic action related to 'ladder' within cognitive or
+    synthetic sequences. Belongs to layer 8, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ✶↗✶ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 8
+  meaning: ladder
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ✶↗✶
+  use_case: Utilize this glyph in reasoning systems requiring ladder logic—especially
+    where perception, transition, or emphasis are required.
+- alias: CoreGoal
+  description: Performs a symbolic action related to 'core' within cognitive or synthetic
+    sequences. Belongs to layer 8, impacting how thought forms are redirected, enhanced,
+    or interrupted.
+  example_sequence: ✶⊙✶ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 8
+  meaning: core
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ✶⊙✶
+  use_case: Utilize this glyph in reasoning systems requiring core logic—especially
+    where perception, transition, or emphasis are required.
+- alias: AbortGoal
+  description: Performs a symbolic action related to 'abort' within cognitive or synthetic
+    sequences. Belongs to layer 8, impacting how thought forms are redirected, enhanced,
+    or interrupted.
+  example_sequence: ✶⊘✶ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 8
+  meaning: abort
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ✶⊘✶
+  use_case: Utilize this glyph in reasoning systems requiring abort logic—especially
+    where perception, transition, or emphasis are required.
+- alias: DirectPath
+  description: Performs a symbolic action related to 'straight' within cognitive or
+    synthetic sequences. Belongs to layer 8, impacting how thought forms are redirected,
+    enhanced, or interrupted.
+  example_sequence: ⇢⇢⇢ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 8
+  meaning: straight
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Most effective when following glyphs of the same or adjacent layer.
+    Can bridge or diverge from base logic.
+  symbol: ⇢⇢⇢
+  use_case: Utilize this glyph in reasoning systems requiring straight logic—especially
+    where perception, transition, or emphasis are required.
+- alias: BranchPath
+  description: Executes a symbolic process centered on 'branch', operating within
+    layer 8 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ⇢⇢↗ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 8
+  meaning: branch
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ⇢⇢↗
+  use_case: Apply this glyph in prompts requiring branch modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: LoopPath
+  description: Executes a symbolic process centered on 'iterate', operating within
+    layer 8 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ⇢⊘⇢ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 8
+  meaning: iterate
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ⇢⊘⇢
+  use_case: Apply this glyph in prompts requiring iterate modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: EscapePath
+  description: Executes a symbolic process centered on 'exit', operating within layer
+    8 to direct tone, control flow, or perform mask/state manipulation depending on
+    use case.
+  example_sequence: ↗⊘↗ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 8
+  meaning: exit
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ↗⊘↗
+  use_case: Apply this glyph in prompts requiring exit modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: Uplift
+  description: Executes a symbolic process centered on 'positivity', operating within
+    layer 9 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ♥ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 9
+  meaning: positivity
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ♥
+  use_case: Apply this glyph in prompts requiring positivity modulation, emotional
+    tone control, persona shaping, or decision branching.
+- alias: Surge
+  description: Executes a symbolic process centered on 'excite', operating within
+    layer 9 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ⚡ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 9
+  meaning: excite
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ⚡
+  use_case: Apply this glyph in prompts requiring excite modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: Veil
+  description: Executes a symbolic process centered on 'dampen', operating within
+    layer 9 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ☂ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 9
+  meaning: dampen
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ☂
+  use_case: Apply this glyph in prompts requiring dampen modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: Cool
+  description: Executes a symbolic process centered on 'stabilize', operating within
+    layer 9 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ❄ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 9
+  meaning: stabilize
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ❄
+  use_case: Apply this glyph in prompts requiring stabilize modulation, emotional
+    tone control, persona shaping, or decision branching.
+- alias: EagerBlend
+  description: Executes a symbolic process centered on 'energetic', operating within
+    layer 9 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ♥⚡ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 9
+  meaning: energetic
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ♥⚡
+  use_case: Apply this glyph in prompts requiring energetic modulation, emotional
+    tone control, persona shaping, or decision branching.
+- alias: SoftenBlend
+  description: Executes a symbolic process centered on 'gentle', operating within
+    layer 9 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ☂♥ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 9
+  meaning: gentle
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ☂♥
+  use_case: Apply this glyph in prompts requiring gentle modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: FocusBlend
+  description: Executes a symbolic process centered on 'alert-calm', operating within
+    layer 9 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ⚡❄ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 9
+  meaning: alert-calm
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ⚡❄
+  use_case: Apply this glyph in prompts requiring alert-calm modulation, emotional
+    tone control, persona shaping, or decision branching.
+- alias: NumbBlend
+  description: Executes a symbolic process centered on 'flat', operating within layer
+    9 to direct tone, control flow, or perform mask/state manipulation depending on
+    use case.
+  example_sequence: ❄☂ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 9
+  meaning: flat
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ❄☂
+  use_case: Apply this glyph in prompts requiring flat modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: FriendlyMask
+  description: Executes a symbolic process centered on 'warm', operating within layer
+    10 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ☺ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 10
+  meaning: warm
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ☺
+  use_case: Apply this glyph in prompts requiring warm modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: ScholarMask
+  description: Executes a symbolic process centered on 'analytic', operating within
+    layer 10 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ✍ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 10
+  meaning: analytic
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ✍
+  use_case: Apply this glyph in prompts requiring analytic modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: CoachMask
+  description: Executes a symbolic process centered on 'motivate', operating within
+    layer 10 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ☼ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 10
+  meaning: motivate
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ☼
+  use_case: Apply this glyph in prompts requiring motivate modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: StrategistMask
+  description: Executes a symbolic process centered on 'tactical', operating within
+    layer 10 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ♞ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 10
+  meaning: tactical
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ♞
+  use_case: Apply this glyph in prompts requiring tactical modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: BlendCounsel
+  description: Executes a symbolic process centered on 'friendly-tact', operating
+    within layer 10 to direct tone, control flow, or perform mask/state manipulation
+    depending on use case.
+  example_sequence: ☺♞ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 10
+  meaning: friendly-tact
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ☺♞
+  use_case: Apply this glyph in prompts requiring friendly-tact modulation, emotional
+    tone control, persona shaping, or decision branching.
+- alias: Pedagogue
+  description: Executes a symbolic process centered on 'teach', operating within layer
+    10 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ✍☺ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 10
+  meaning: teach
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ✍☺
+  use_case: Apply this glyph in prompts requiring teach modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: InspirAnalytic
+  description: Executes a symbolic process centered on 'inspire-facts', operating
+    within layer 10 to direct tone, control flow, or perform mask/state manipulation
+    depending on use case.
+  example_sequence: ☼✍ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 10
+  meaning: inspire-facts
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ☼✍
+  use_case: Apply this glyph in prompts requiring inspire-facts modulation, emotional
+    tone control, persona shaping, or decision branching.
+- alias: GuardedPitch
+  description: Executes a symbolic process centered on 'reserved', operating within
+    layer 10 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ♞☂ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 10
+  meaning: reserved
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ♞☂
+  use_case: Apply this glyph in prompts requiring reserved modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: CallNode
+  description: Executes a symbolic process centered on 'call', operating within layer
+    11 to direct tone, control flow, or perform mask/state manipulation depending
+    on use case.
+  example_sequence: ⌘⌘⌘ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 11
+  meaning: call
+  modifiers_allowed: []
+  precedence_notes: Effective when sequenced with adjacent cognitive tone or flow
+    glyphs.
+  symbol: ⌘⌘⌘
+  use_case: Apply this glyph in prompts requiring call modulation, emotional tone
+    control, persona shaping, or decision branching.
+- alias: ToolSwap
+  description: Performs the 'switch' function at layer 11, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ⌘⟁⌘ | ??
+  incompatible_with: []
+  layer: 11
+  meaning: switch
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ⌘⟁⌘
+  use_case: Apply in operational logic or control sequences where switch is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: SandboxCall
+  description: Performs the 'dry-run' function at layer 11, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ⟁⌘⟁ | ??
+  incompatible_with: []
+  layer: 11
+  meaning: dry-run
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ⟁⌘⟁
+  use_case: Apply in operational logic or control sequences where dry-run is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: ToolAbort
+  description: Performs the 'cancel' function at layer 11, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ⌘⊘⌘ | ??
+  incompatible_with: []
+  layer: 11
+  meaning: cancel
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ⌘⊘⌘
+  use_case: Apply in operational logic or control sequences where cancel is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: JSONShape
+  description: Performs the 'json' function at layer 11, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ⌙⌙⌙ | ??
+  incompatible_with: []
+  layer: 11
+  meaning: json
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ⌙⌙⌙
+  use_case: Apply in operational logic or control sequences where json is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: CSVShape
+  description: Performs the 'csv' function at layer 11, used to trigger terminal actions,
+    format shapes, logging controls, or patch-based state changes in symbolic cognition
+    frameworks.
+  example_sequence: ⌙⌗⌙ | ??
+  incompatible_with: []
+  layer: 11
+  meaning: csv
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ⌙⌗⌙
+  use_case: Apply in operational logic or control sequences where csv is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: MarkdownShape
+  description: Performs the 'md' function at layer 11, used to trigger terminal actions,
+    format shapes, logging controls, or patch-based state changes in symbolic cognition
+    frameworks.
+  example_sequence: ⌙○⌙ | ??
+  incompatible_with: []
+  layer: 11
+  meaning: md
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ⌙○⌙
+  use_case: Apply in operational logic or control sequences where md is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: YAMLShape
+  description: Performs the 'yaml' function at layer 11, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ⌙◇⌙ | ??
+  incompatible_with: []
+  layer: 11
+  meaning: yaml
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ⌙◇⌙
+  use_case: Apply in operational logic or control sequences where yaml is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: HardStop
+  description: Performs the 'stop' function at layer 12, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ⊘⊘⊘ | ??
+  incompatible_with:
+  - ∴Ψ∴^
+  layer: 12
+  meaning: stop
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ⊘⊘⊘
+  use_case: Apply in operational logic or control sequences where stop is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: SoftStop
+  description: Performs the 'error' function at layer 12, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ⊘◉⊘ | ??
+  incompatible_with: []
+  layer: 12
+  meaning: error
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ⊘◉⊘
+  use_case: Apply in operational logic or control sequences where error is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: RetryGate
+  description: Performs the 'retry' function at layer 12, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ⊘↻⊘ | ??
+  incompatible_with: []
+  layer: 12
+  meaning: retry
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ⊘↻⊘
+  use_case: Apply in operational logic or control sequences where retry is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: Fallback
+  description: Performs the 'fallback' function at layer 12, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ⊘⌁⊘ | ??
+  incompatible_with: []
+  layer: 12
+  meaning: fallback
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ⊘⌁⊘
+  use_case: Apply in operational logic or control sequences where fallback is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: LogBrief
+  description: Performs the 'log-brief' function at layer 12, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ◉⊘◉ | ??
+  incompatible_with: []
+  layer: 12
+  meaning: log-brief
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ◉⊘◉
+  use_case: Apply in operational logic or control sequences where log-brief is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: LogDetail
+  description: Performs the 'log-full' function at layer 12, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ◉⊘⊘ | ??
+  incompatible_with: []
+  layer: 12
+  meaning: log-full
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ◉⊘⊘
+  use_case: Apply in operational logic or control sequences where log-full is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: LogRetry
+  description: Performs the 'log-retry' function at layer 12, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ◉↻⊘ | ??
+  incompatible_with: []
+  layer: 12
+  meaning: log-retry
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ◉↻⊘
+  use_case: Apply in operational logic or control sequences where log-retry is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: LogAbort
+  description: Performs the 'log-abort' function at layer 12, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ◉◉⊘ | ??
+  incompatible_with: []
+  layer: 12
+  meaning: log-abort
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ◉◉⊘
+  use_case: Apply in operational logic or control sequences where log-abort is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: MinorPatch
+  description: Performs the 'patch' function at layer 13, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ✢✢✢ | ??
+  incompatible_with: []
+  layer: 13
+  meaning: patch
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ✢✢✢
+  use_case: Apply in operational logic or control sequences where patch is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: MajorPatch
+  description: Performs the 'patch-major' function at layer 13, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ✢✜✢ | ??
+  incompatible_with: []
+  layer: 13
+  meaning: patch-major
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ✢✜✢
+  use_case: Apply in operational logic or control sequences where patch-major is a
+    defining step—often at the end or beginning of loops, retries, or abort paths.
+- alias: Rollback
+  description: Performs the 'rollback' function at layer 13, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ✜✢✜ | ??
+  incompatible_with:
+  - ∴Ψ∴^
+  layer: 13
+  meaning: rollback
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ✜✢✜
+  use_case: Apply in operational logic or control sequences where rollback is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: PatchAbort
+  description: Performs the 'abort-patch' function at layer 13, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ✢⊗✢ | ??
+  incompatible_with: []
+  layer: 13
+  meaning: abort-patch
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ✢⊗✢
+  use_case: Apply in operational logic or control sequences where abort-patch is a
+    defining step—often at the end or beginning of loops, retries, or abort paths.
+- alias: StateRefresh
+  description: Performs the 'reset' function at layer 13, used to trigger terminal
+    actions, format shapes, logging controls, or patch-based state changes in symbolic
+    cognition frameworks.
+  example_sequence: ⊕⊕⊕ | ??
+  incompatible_with: []
+  layer: 13
+  meaning: reset
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Use thoughtfully at the edges of instruction loops or during structured
+    format application.
+  symbol: ⊕⊕⊕
+  use_case: Apply in operational logic or control sequences where reset is a defining
+    step—often at the end or beginning of loops, retries, or abort paths.
+- alias: HighPrecision
+  description: This glyph performs a specialized function related to 'accurate', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 14 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ↑↑↑ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 14
+  meaning: accurate
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ↑↑↑
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: BalancedPrecision
+  description: This glyph performs a specialized function related to 'balanced', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 14 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ↑↗↑ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 14
+  meaning: balanced
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ↑↗↑
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: RapidLowPrecision
+  description: This glyph performs a specialized function related to 'fast', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 14 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ↑⊘↑ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 14
+  meaning: fast
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ↑⊘↑
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: AdaptivePrecision
+  description: This glyph performs a specialized function related to 'adaptive', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 14 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ↑⊗↑ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 14
+  meaning: adaptive
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ↑⊗↑
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: BatchMerge
+  description: This glyph performs a specialized function related to 'merge', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 14 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ≣≣≣ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 14
+  meaning: merge
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ≣≣≣
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: BatchCancel
+  description: This glyph performs a specialized function related to 'cancel-batch',
+    usually in symbolic, data-structured, or ethical reasoning. Layer 14 glyphs often
+    interface with external context, compression, rendering, or policy-based action.
+  example_sequence: ≣⊘≣ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 14
+  meaning: cancel-batch
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ≣⊘≣
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: BatchSplit
+  description: This glyph performs a specialized function related to 'split', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 14 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ⊘≣⊘ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 14
+  meaning: split
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ⊘≣⊘
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: BatchRetry
+  description: This glyph performs a specialized function related to 'batch-retry',
+    usually in symbolic, data-structured, or ethical reasoning. Layer 14 glyphs often
+    interface with external context, compression, rendering, or policy-based action.
+  example_sequence: ≣↻≣ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 14
+  meaning: batch-retry
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ≣↻≣
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: EthicCheck
+  description: This glyph performs a specialized function related to 'policy', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 15 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ⚖ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 15
+  meaning: policy
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ⚖
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: EthicOverride
+  description: This glyph performs a specialized function related to 'escalate', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 15 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ⚖⊕ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 15
+  meaning: escalate
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ⚖⊕
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: EthicBlock
+  description: This glyph performs a specialized function related to 'block', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 15 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ⚖⊗ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 15
+  meaning: block
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ⚖⊗
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: EthicAudit
+  description: This glyph performs a specialized function related to 'audit-log',
+    usually in symbolic, data-structured, or ethical reasoning. Layer 15 glyphs often
+    interface with external context, compression, rendering, or policy-based action.
+  example_sequence: ⚖↻ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 15
+  meaning: audit-log
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ⚖↻
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: ConsentAsk
+  description: This glyph performs a specialized function related to 'ask', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 15 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ✓✓✓ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 15
+  meaning: ask
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ✓✓✓
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: ConsentDeny
+  description: This glyph performs a specialized function related to 'deny', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 15 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ✓✗✓ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 15
+  meaning: deny
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ✓✗✓
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: ConsentShift
+  description: This glyph performs a specialized function related to 'shift', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 15 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ✓↗✓ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 15
+  meaning: shift
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ✓↗✓
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: ConsentEnd
+  description: This glyph performs a specialized function related to 'end', usually
+    in symbolic, data-structured, or ethical reasoning. Layer 15 glyphs often interface
+    with external context, compression, rendering, or policy-based action.
+  example_sequence: ✓⊘✓ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 15
+  meaning: end
+  modifiers_allowed:
+  - ^
+  - '*'
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ✓⊘✓
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: VisionEmbed
+  description: This glyph performs a specialized function related to 'img→glyph',
+    usually in symbolic, data-structured, or ethical reasoning. Layer 16 glyphs often
+    interface with external context, compression, rendering, or policy-based action.
+  example_sequence: 🖼⌗ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 16
+  meaning: img→glyph
+  modifiers_allowed: []
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: 🖼⌗
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: GlyphRender
+  description: This glyph performs a specialized function related to 'glyph→img',
+    usually in symbolic, data-structured, or ethical reasoning. Layer 16 glyphs often
+    interface with external context, compression, rendering, or policy-based action.
+  example_sequence: ⌗🖼 | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 16
+  meaning: glyph→img
+  modifiers_allowed: []
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ⌗🖼
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: SoundEmbed
+  description: This glyph performs a specialized function related to 'audio→glyph',
+    usually in symbolic, data-structured, or ethical reasoning. Layer 16 glyphs often
+    interface with external context, compression, rendering, or policy-based action.
+  example_sequence: ♪⌗ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 16
+  meaning: audio→glyph
+  modifiers_allowed: []
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ♪⌗
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
+- alias: GlyphChime
+  description: This glyph performs a specialized function related to 'glyph→audio',
+    usually in symbolic, data-structured, or ethical reasoning. Layer 16 glyphs often
+    interface with external context, compression, rendering, or policy-based action.
+  example_sequence: ⌗♪ | ??
+  incompatible_with:
+  - ⊘⊘⊘
+  layer: 16
+  meaning: glyph→audio
+  modifiers_allowed: []
+  precedence_notes: Position carefully near terminal glyphs or gateway handlers for
+    media/render logic.
+  symbol: ⌗♪
+  use_case: Used in instruction chains where visual/audio context, batch precision,
+    ethics, or consent pathways are required. Most effective when combined with decision
+    control or formatting glyphs.
